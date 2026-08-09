@@ -2,15 +2,15 @@
 
 An AI-powered recruitment automation agent built on [Activepieces](https://www.activepieces.com/) that monitors Gmail for applications, classifies emails via AI, tracks candidates in Google Sheets, detects status changes, and sends personalized emails with human approval gates.
 
-> 📄 **See [PROBLEM_STATEMENT.md](./PROBLEM_STATEMENT.md) for the full problem definition and what this agent solves.**
+>  **See [PROBLEM_STATEMENT.md](./PROBLEM_STATEMENT.md) for the full problem definition and what this agent solves.**
 
 ---
 
-## 🚀 Quick Start — Use the Template
+##  Quick Start — Use the Template
 
 The fastest way to get started:
 
-**➡️ [Use the Activepieces Template](https://cloud.activepieces.com/templates/DNIbhrIvC2gqqIe45duB2)**
+** [Use the Activepieces Template](https://cloud.activepieces.com/templates/DNIbhrIvC2gqqIe45duB2)**
 
 Click the link above to import the flow directly into your Activepieces workspace. You can modify the template according to your needs.
 
@@ -18,7 +18,7 @@ Click the link above to import the flow directly into your Activepieces workspac
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before setting up the agent, make sure you have:
 
@@ -29,7 +29,7 @@ Before setting up the agent, make sure you have:
 
 ---
 
-## 🔧 Setup Guide
+##  Setup Guide
 
 ### Step 1: Import the Flow
 
@@ -67,7 +67,7 @@ The agent uses Gmail for two purposes:
 7. Click **"Allow"**
 8. Name the connection (e.g., `My Gmail`) and save
 
-> ⚠️ **Important:** Use the same Gmail connection across ALL Gmail steps in the flow. After connecting once, select the same connection from the dropdown in every Gmail step.
+>  **Important:** Use the same Gmail connection across ALL Gmail steps in the flow. After connecting once, select the same connection from the dropdown in every Gmail step.
 
 **Gmail steps that need this connection:**
 
@@ -100,7 +100,7 @@ The agent uses Google Sheets to create and manage the candidate tracking spreads
 6. Click **"Allow"**
 7. Name the connection (e.g., `My Google Sheets`) and save
 
-> ⚠️ **Important:** Use the same Google Sheets connection across ALL Sheets steps. The agent creates a spreadsheet on first run and references it throughout.
+>  **Important:** Use the same Google Sheets connection across ALL Sheets steps. The agent creates a spreadsheet on first run and references it throughout.
 
 **Google Sheets steps that need this connection:**
 
@@ -144,7 +144,7 @@ When you publish the flow, Activepieces will prompt you with **3 builder questio
 
 ---
 
-## 📊 Google Sheet Structure
+##  Google Sheet Structure
 
 The agent creates a spreadsheet with these columns:
 
@@ -185,7 +185,7 @@ The agent creates a spreadsheet with these columns:
 
 ---
 
-## ✏️ Customization Guide
+##  Customization Guide
 
 You can modify the template to fit your needs:
 
@@ -208,7 +208,7 @@ You can modify the template to fit your needs:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |:----------|:-----------|
@@ -221,7 +221,7 @@ You can modify the template to fit your needs:
 
 ---
 
-## ⚠️ Troubleshooting
+##  Troubleshooting
 
 | Issue | Solution |
 |:------|:---------|
@@ -234,7 +234,7 @@ You can modify the template to fit your needs:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source. Feel free to use, modify, and distribute.
 
